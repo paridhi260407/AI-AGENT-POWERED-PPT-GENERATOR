@@ -24,7 +24,7 @@ os.environ["TAVILY_API_KEY"] = TAVILY_API_KEY
 ALL_API = [GOOGLE_API_KEY,GROQ_API_KEY,TAVILY_API_KEY]
 if not all(ALL_API):
   st.sidebar.error("PASS API-KEYS")
-elif all(ALL-API):
+elif all(ALL_API):
   
   #step:1 model call
   model = ChatGoogleGenerativeAI(
