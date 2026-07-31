@@ -62,7 +62,7 @@ def generate_image(img_prompt):
   with open(f"Image.jpeg",'wb') as f:
     f.write(content.content)
   from PIL import Image
-  return Image.open("Image.jpeg")
+  return url
 #WITH TABS
 tab1, tab2, tab3 = st.tabs(["GENERATE IMAGE",
                            "SEARCH LATEST NEWS",
