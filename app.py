@@ -12,7 +12,7 @@ import streamlit as st
 
 
 #==========API KEYS=============
-GOOGLE_APIKEY=st.sidebar.text_input("Google-API",type="password")
+GOOGLE_API_KEY=st.sidebar.text_input("Google-API",type="password")
 GROQ_API_KEY=st.sidebar.text_input("Groq-API",type="password")
 TAVILY_API_KEY=st.sidebar.text_input("Tavily-API",type="password")
 
